@@ -4,6 +4,9 @@
     <img align="center" src="assets/example.png" alt="example"/>
 </p>
 
+# What is Tint?
+
+Its like Mint but for Terraform.
 
 # Configuration
 

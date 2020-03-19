@@ -24,3 +24,11 @@ The Terraform API Token can be obtained at a user level or at an organization le
 Navigate to `http://localhost:80` in your browser. 
 
 *Note that it might take some time to finish downloading all of your Terraform Cost Estimation data.
+
+# Development
+
+### Start the Frontend in Dev mode
+`npm run start`
+
+### Start the Backend
+`go run cmd/main.go`

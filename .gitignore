@@ -2,3 +2,4 @@
 data/*
 web/node_modules
 web/public/index.js
+web/package-lock.json

@@ -8,6 +8,8 @@
 
 Its like Mint but for Terraform.
 
+The primary goal of this project was to iterate and aggregate all of the available Organizations, Workspaces, and corresponding Runs that have been applied. Once this data is aggregated, Tint calculates the length of time those resources have been running, the total cost for each provider and dumps this data to disk in a CSV format.
+
 # Configuration
 
 Tint requires two environment variables to be set which allow it to authenticate against a Terraform instance. 

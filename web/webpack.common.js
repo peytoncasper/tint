@@ -13,29 +13,6 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.scss$/,
-                use: [{
-                    loader: 'style-loader',
-                }, {
-                    loader: 'css-loader',
-                }, {
-                    loader: 'sass-loader',
-                },
-                ],
-            },
-            {
-                test: /\.(svg|woff|woff2|ttf|eot)(\?.*$|$)/,
-                use: [
-                    {
-                        loader: 'file-loader',
-                        options: {
-                            name: '[name].[ext]',
-                            outputPath: 'fonts/',
-                        },
-                    },
-                ],
-            },
-            {
                 test: /\.ts(x?)$/,
                 loader: 'ts-loader',
             },

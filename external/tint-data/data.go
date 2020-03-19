@@ -57,7 +57,7 @@ func populateCostData(records []*Record, config *tfe.Config) (ret []*Record) {
 					copy(ret[j + 1:], ret[j:])
 					ret[j] = record
 				} else if j == len(ret) - 1 {
-					ret = append(ret, returnRecord)
+					ret = append(ret, record)
 				}
 			}
 		} else {

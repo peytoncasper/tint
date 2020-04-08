@@ -20,9 +20,12 @@ The Terraform API Token can be obtained at a user level or at an organization le
 
 # Installation
 
-1. `npm run build`
-2. `go install cmd/main.go`
-3. `./main`
+1. `cd web`
+2. `npm install`
+3. `npm run build`
+4. `cd ..`
+5. `go install cmd/main.go`
+6. `./main`
 
 # Try it Out
 
